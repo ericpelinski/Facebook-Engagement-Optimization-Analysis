@@ -21,6 +21,19 @@ It is extremely important to note that the findings of this project are unlikely
 * **Visualization:** Matplotlib, Seaborn
 * **Modeling:** Scikit-learn (Linear Regression, Random Forest)
 
+### How to run this project:
+
+To run this analysis on your local machine, you can follow these steps:
+
+1.  **Clone the repository:**
+    `git clone https://github.com/ericpelinski/Facebook-Engagement-Optimization-Analysis.git`
+2.  **Navigate to the project directory:**
+    `cd YourRepositoryName`
+3.  **Install the necessary libraries (if needed):**
+    `pip install pandas matplotlib seaborn scikit-learn`
+4.  **Launch Jupyter Notebook and open `fb_metrics.ipynb`:**
+    `jupyter notebook`
+
 ### Conclusions and Future Research
 
 Im quite proud of this work. It required me to learn new tools, strategies, and statistical methods to provide insights that can be trusted. Despite being limited by the dataset, achieving a R^2 of 0.26 based exclusively on a post's metadata proves that, while one can be confident that the actual content of a post plays the most substantial role, the post's type and the time it was posted do indeed play a legitimate role in improving it's total interactions. 
